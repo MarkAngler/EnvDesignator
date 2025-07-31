@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Colorizer Options</title>
+  <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body>
+  <h1>Tab Colorizer Options</h1>
+
+  <form id="add-pattern-form">
+    <input type="text" id="url-pattern" placeholder="URL Pattern (e.g., *://*.example.com/*)" required>
+    <input type="color" id="color-picker" value="#ff0000">
+    <button type="submit">Add Pattern</button>
+  </form>
+
+  <h2>Saved Patterns</h2>
+  <ul id="patterns-list">
+    <!-- Patterns will be dynamically added here -->
+  </ul>
+
+  <script src="options.js"></script>
+</body>
+</html>
